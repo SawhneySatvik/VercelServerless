@@ -20,7 +20,7 @@ with open("q-vercel-python.json", "r", encoding="utf-8") as f:
 # Define the route.
 # Note: Since this file is in the "api" directory, Vercel will serve this
 # function at https://your-app.vercel.app/api. So we use the path "/" here.
-@app.get("/")
+@app.get("/api")
 def get_marks(name: list[str] = Query(None)):
     """
     Expects one or more 'name' query parameters.
