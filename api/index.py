@@ -2,7 +2,7 @@ import json
 import urllib.parse
 
 # Load the marks data from marks.json on cold start.
-with open("marks.json", "r", encoding="utf-8") as f:
+with open("q-vercel-python.json", "r", encoding="utf-8") as f:
     marks_data = json.load(f)
 
 def handler(request, context):
