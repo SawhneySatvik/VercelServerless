@@ -14,8 +14,8 @@ app.add_middleware(
 )
 
 # Determine the absolute path to the JSON file.
-current_dir = os.path.dirname(__file__)
-json_file_path = os.path.join(current_dir, "..", "q-vercel-python.json")
+# current_dir = os.path.dirname(__file__)
+# json_file_path = os.path.join(current_dir, "..", "q-vercel-python.json")
 
 # Load the JSON data.
 with open(json_file_path, "r", encoding="utf-8") as f:
